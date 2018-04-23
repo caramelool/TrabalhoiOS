@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		AC552E74208E988800DC7E6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC552E73208E988800DC7E6E /* AppDelegate.swift */; };
-		AC552E76208E988800DC7E6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC552E75208E988800DC7E6E /* ViewController.swift */; };
+		AC552E76208E988800DC7E6E /* ProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC552E75208E988800DC7E6E /* ProductTableViewController.swift */; };
 		AC552E79208E988800DC7E6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC552E77208E988800DC7E6E /* Main.storyboard */; };
 		AC552E7C208E988800DC7E6E /* LucasCaramelo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC552E7A208E988800DC7E6E /* LucasCaramelo.xcdatamodeld */; };
 		AC552E7E208E988800DC7E6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC552E7D208E988800DC7E6E /* Assets.xcassets */; };
 		AC552E81208E988800DC7E6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC552E7F208E988800DC7E6E /* LaunchScreen.storyboard */; };
+		AC552E89208EA00600DC7E6E /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC552E88208EA00600DC7E6E /* ProductTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AC552E70208E988800DC7E6E /* LucasCaramelo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LucasCaramelo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC552E73208E988800DC7E6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC552E75208E988800DC7E6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC552E75208E988800DC7E6E /* ProductTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewController.swift; sourceTree = "<group>"; };
 		AC552E78208E988800DC7E6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC552E7B208E988800DC7E6E /* LucasCaramelo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LucasCaramelo.xcdatamodel; sourceTree = "<group>"; };
 		AC552E7D208E988800DC7E6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC552E80208E988800DC7E6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC552E82208E988800DC7E6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC552E88208EA00600DC7E6E /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				AC552E73208E988800DC7E6E /* AppDelegate.swift */,
-				AC552E75208E988800DC7E6E /* ViewController.swift */,
+				AC552E75208E988800DC7E6E /* ProductTableViewController.swift */,
+				AC552E88208EA00600DC7E6E /* ProductTableViewCell.swift */,
 				AC552E77208E988800DC7E6E /* Main.storyboard */,
 				AC552E7D208E988800DC7E6E /* Assets.xcassets */,
 				AC552E7F208E988800DC7E6E /* LaunchScreen.storyboard */,
@@ -139,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC552E76208E988800DC7E6E /* ViewController.swift in Sources */,
+				AC552E76208E988800DC7E6E /* ProductTableViewController.swift in Sources */,
+				AC552E89208EA00600DC7E6E /* ProductTableViewCell.swift in Sources */,
 				AC552E7C208E988800DC7E6E /* LucasCaramelo.xcdatamodeld in Sources */,
 				AC552E74208E988800DC7E6E /* AppDelegate.swift in Sources */,
 			);

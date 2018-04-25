@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		533D181A208FDA9900A7EB4B /* ProductCreateUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533D1819208FDA9900A7EB4B /* ProductCreateUpdateViewController.swift */; };
 		533D181C208FE04200A7EB4B /* UIViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533D181B208FE04200A7EB4B /* UIViewController+CoreData.swift */; };
-		533D181E208FE11A00A7EB4B /* ProductDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533D181D208FE11A00A7EB4B /* ProductDAO.swift */; };
+		533D181E208FE11A00A7EB4B /* ProductManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533D181D208FE11A00A7EB4B /* ProductManager.swift */; };
+		AC3FF9832091452E000EEF01 /* UIViewController+UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3FF9822091452E000EEF01 /* UIViewController+UIAlertController.swift */; };
 		AC552E74208E988800DC7E6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC552E73208E988800DC7E6E /* AppDelegate.swift */; };
 		AC552E76208E988800DC7E6E /* ProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC552E75208E988800DC7E6E /* ProductTableViewController.swift */; };
 		AC552E79208E988800DC7E6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC552E77208E988800DC7E6E /* Main.storyboard */; };
@@ -22,7 +23,8 @@
 /* Begin PBXFileReference section */
 		533D1819208FDA9900A7EB4B /* ProductCreateUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCreateUpdateViewController.swift; sourceTree = "<group>"; };
 		533D181B208FE04200A7EB4B /* UIViewController+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+CoreData.swift"; sourceTree = "<group>"; };
-		533D181D208FE11A00A7EB4B /* ProductDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDAO.swift; sourceTree = "<group>"; };
+		533D181D208FE11A00A7EB4B /* ProductManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductManager.swift; sourceTree = "<group>"; };
+		AC3FF9822091452E000EEF01 /* UIViewController+UIAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+UIAlertController.swift"; sourceTree = "<group>"; };
 		AC552E70208E988800DC7E6E /* LucasCaramelo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LucasCaramelo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC552E73208E988800DC7E6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC552E75208E988800DC7E6E /* ProductTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewController.swift; sourceTree = "<group>"; };
@@ -51,7 +53,7 @@
 				AC552E75208E988800DC7E6E /* ProductTableViewController.swift */,
 				AC552E88208EA00600DC7E6E /* ProductTableViewCell.swift */,
 				533D1819208FDA9900A7EB4B /* ProductCreateUpdateViewController.swift */,
-				533D181D208FE11A00A7EB4B /* ProductDAO.swift */,
+				533D181D208FE11A00A7EB4B /* ProductManager.swift */,
 			);
 			path = product;
 			sourceTree = "<group>";
@@ -78,6 +80,7 @@
 				533D1818208FDA6600A7EB4B /* product */,
 				AC552E73208E988800DC7E6E /* AppDelegate.swift */,
 				533D181B208FE04200A7EB4B /* UIViewController+CoreData.swift */,
+				AC3FF9822091452E000EEF01 /* UIViewController+UIAlertController.swift */,
 				AC552E77208E988800DC7E6E /* Main.storyboard */,
 				AC552E7D208E988800DC7E6E /* Assets.xcassets */,
 				AC552E7F208E988800DC7E6E /* LaunchScreen.storyboard */,
@@ -163,7 +166,8 @@
 				AC552E89208EA00600DC7E6E /* ProductTableViewCell.swift in Sources */,
 				533D181A208FDA9900A7EB4B /* ProductCreateUpdateViewController.swift in Sources */,
 				533D181C208FE04200A7EB4B /* UIViewController+CoreData.swift in Sources */,
-				533D181E208FE11A00A7EB4B /* ProductDAO.swift in Sources */,
+				533D181E208FE11A00A7EB4B /* ProductManager.swift in Sources */,
+				AC3FF9832091452E000EEF01 /* UIViewController+UIAlertController.swift in Sources */,
 				AC552E7C208E988800DC7E6E /* LucasCaramelo.xcdatamodeld in Sources */,
 				AC552E74208E988800DC7E6E /* AppDelegate.swift in Sources */,
 			);

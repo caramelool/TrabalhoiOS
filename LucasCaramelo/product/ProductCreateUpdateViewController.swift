@@ -22,22 +22,33 @@ class ProductCreateUpdateViewController: UIViewController {
         super.viewDidLoad()
         if product != nil {
             tfName.text = product.name
-            tfValue.text = String(product.value)
+//            tfValue.text = String(product.value)
             swCard.setOn(product.credit, animated: false)
-            if let state = product.state as? State {
-                tfState.text = state.name
-            }
-            if let image = product.image as? UIImage {
-                ivImage.image = image
-            }
+//            if let state = product.state as? State {
+//                tfState.text = state.name
+//            }
+//            if let image = product.image as? UIImage {
+//                ivImage.image = image
+//            }
             btSave.setTitle("Salvar", for: .normal)
         } else {
-            product = Product()
             btSave.setTitle("Cadastrar", for: .normal)
         }
     }
     
     @IBAction func save(_ sender: UIButton) {
+        if product == nil {
+            product = Product(context: context)
+        }
+        product.name = tfName.text
+        product.credit = swCard.isOn
+        let saved = ProductManager.shared.save(product)
+        if saved {
+            navigationController?.popViewController(animated: true)
+        } else {
+            showAlertOK(title: "Error", message: "Não foi possivel \(btSave.titleLabel?.text ?? "") seu produto")
+            let _ = ProductManager.shared.delete(product)
+        }
     }
     
 }

@@ -69,7 +69,7 @@ class ProductTableViewController: UITableViewController {
     
     func loadProducts() {
         showLoading(true)
-        ProductDAO.load { (products, error) in
+        ProductManager.shared.load { (products, error) in
             if error == nil {
                 guard let products = products else { return }
                 self.products = products

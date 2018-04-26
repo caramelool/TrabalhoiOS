@@ -25,5 +25,6 @@ class ProductTableViewCell: UITableViewCell {
     
     private func setupViews() {
         lbName.text = product.name
+        lbValue.text = product.value.toCurrencyString(forLocale: .EN, useSymbol: true)
     }
 }
